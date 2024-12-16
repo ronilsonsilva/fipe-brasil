@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{365556A5-D586-4A50-8A83-5CC1799ABB2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{AFD1C5D9-2136-4C34-80BB-5CA612715787}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{9CB93AB0-1F63-4BE7-A7F7-8A7581118D42}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{00E04309-9B32-457B-AB65-A273632E6C70}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FipeBrasil.Domain", "FipeBrasil.Domain\FipeBrasil.Domain.csproj", "{49598955-8C8C-4399-8FA1-1843E36933B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FipeBrasil.Application", "FipeBrasil.Application\FipeBrasil.Application.csproj", "{4F93CF4F-1D43-4EAA-989E-CCC471CB3138}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FipeBrasil.Infrastructure.Data", "FipeBrasil.Infrastructure\FipeBrasil.Infrastructure.Data.csproj", "{599D2AC7-5820-4CA2-AD4B-E57481D03624}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FipeBrasil.WebAPI", "FipeBrasil.WebAPI\FipeBrasil.WebAPI.csproj", "{A023A4D9-03A5-4A8E-AEDE-709189EA04E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FipeBrasil.WorkerService", "FipeBrasil.WorkerService\FipeBrasil.WorkerService.csproj", "{536A1BAD-A507-48F1-8AF9-045AB956750F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - WorkerService", "5 - WorkerService", "{4E55178E-3C6A-42BA-AEB1-8C379321EB27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FipeBrasil.Jobs", "FipeBrasil.Jobs\FipeBrasil.Jobs.csproj", "{DE507EAC-1538-47CE-8029-59EE21D0DA63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - test", "6 - test", "{C9BBFC5E-4E48-43F7-BB44-138CB09BE15D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FipeBrasil.Application.Test", "FipeBrasil.Application.Test\FipeBrasil.Application.Test.csproj", "{6CDCC672-EAD4-46FA-913F-8949DA8052BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49598955-8C8C-4399-8FA1-1843E36933B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49598955-8C8C-4399-8FA1-1843E36933B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49598955-8C8C-4399-8FA1-1843E36933B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49598955-8C8C-4399-8FA1-1843E36933B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F93CF4F-1D43-4EAA-989E-CCC471CB3138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F93CF4F-1D43-4EAA-989E-CCC471CB3138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F93CF4F-1D43-4EAA-989E-CCC471CB3138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F93CF4F-1D43-4EAA-989E-CCC471CB3138}.Release|Any CPU.Build.0 = Release|Any CPU
+		{599D2AC7-5820-4CA2-AD4B-E57481D03624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{599D2AC7-5820-4CA2-AD4B-E57481D03624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{599D2AC7-5820-4CA2-AD4B-E57481D03624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{599D2AC7-5820-4CA2-AD4B-E57481D03624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A023A4D9-03A5-4A8E-AEDE-709189EA04E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A023A4D9-03A5-4A8E-AEDE-709189EA04E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A023A4D9-03A5-4A8E-AEDE-709189EA04E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A023A4D9-03A5-4A8E-AEDE-709189EA04E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{536A1BAD-A507-48F1-8AF9-045AB956750F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{536A1BAD-A507-48F1-8AF9-045AB956750F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{536A1BAD-A507-48F1-8AF9-045AB956750F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{536A1BAD-A507-48F1-8AF9-045AB956750F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE507EAC-1538-47CE-8029-59EE21D0DA63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE507EAC-1538-47CE-8029-59EE21D0DA63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE507EAC-1538-47CE-8029-59EE21D0DA63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE507EAC-1538-47CE-8029-59EE21D0DA63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CDCC672-EAD4-46FA-913F-8949DA8052BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CDCC672-EAD4-46FA-913F-8949DA8052BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CDCC672-EAD4-46FA-913F-8949DA8052BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CDCC672-EAD4-46FA-913F-8949DA8052BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{49598955-8C8C-4399-8FA1-1843E36933B5} = {9CB93AB0-1F63-4BE7-A7F7-8A7581118D42}
+		{4F93CF4F-1D43-4EAA-989E-CCC471CB3138} = {AFD1C5D9-2136-4C34-80BB-5CA612715787}
+		{599D2AC7-5820-4CA2-AD4B-E57481D03624} = {00E04309-9B32-457B-AB65-A273632E6C70}
+		{A023A4D9-03A5-4A8E-AEDE-709189EA04E4} = {365556A5-D586-4A50-8A83-5CC1799ABB2D}
+		{536A1BAD-A507-48F1-8AF9-045AB956750F} = {4E55178E-3C6A-42BA-AEB1-8C379321EB27}
+		{DE507EAC-1538-47CE-8029-59EE21D0DA63} = {4E55178E-3C6A-42BA-AEB1-8C379321EB27}
+		{6CDCC672-EAD4-46FA-913F-8949DA8052BE} = {C9BBFC5E-4E48-43F7-BB44-138CB09BE15D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B32FDF4-8CDC-47E0-8F20-8515EC1218F6}
+	EndGlobalSection
+EndGlobal

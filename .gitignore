@@ -1,0 +1,19 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/FipeBrasil.Application/bin/Debug/net8.0
+/FipeBrasil.Application/obj
+/FipeBrasil.Application.Test/bin
+/FipeBrasil.Application.Test/obj
+/FipeBrasil.Domain/bin/Debug/net8.0
+/FipeBrasil.Domain/obj
+/FipeBrasil.Infrastructure/bin/Debug/net8.0
+/FipeBrasil.Infrastructure/obj
+/FipeBrasil.Jobs/bin/Debug/net8.0
+/FipeBrasil.Jobs/obj
+/FipeBrasil.WebAPI/bin/Debug/net8.0
+/FipeBrasil.WebAPI/obj
+/FipeBrasil.WorkerService/bin/Debug/net8.0
+/FipeBrasil.WorkerService/obj
